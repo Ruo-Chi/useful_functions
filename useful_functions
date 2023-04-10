@@ -27,10 +27,19 @@ def process_messagevigenere_decrypt(text: str, key: str, encrypt=False):
 def driver():
     description = "useful_functions"
     parser = ArgumentParser(__file__, description)
+    parser.add_argument("", action="store",
+                        help-"Path to raw data mat file)
+
+    results = parser.parse_args()
+
+    raw=sio.loodmat(results.d)
+    
+    path='
+
 
 if __name__ == "__main__":
     driver()
 
-print("TEST")
+
 
 
