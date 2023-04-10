@@ -1,0 +1,19 @@
+#!/user/bin/env python
+
+from argparse import ArgumentParser
+
+def encrypt_letter(letter, key):
+    pass
+
+def decrypt_letter(letter, key):
+    pass
+
+def process_message(message, key, encrypt):
+    pass
+
+def driver():
+    description = ""
+    parser = ArgumentParser(__file__, description)
+
+if __name__ == "__main__":
+    driver())
