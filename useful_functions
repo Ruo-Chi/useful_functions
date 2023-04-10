@@ -2,6 +2,7 @@
 
 from argparse import ArgumentParser
 
+
 def encrypt_letter(text: str, key: str, encrypt=True):
 
     result = ''
@@ -19,22 +20,25 @@ def encrypt_letter(text: str, key: str, encrypt=True):
 
     return result
 
+
 def decrypt_letter(text: str, key: str, encrypt=True):    return vigenere(text=text, key=key)
+
 
 def process_messagevigenere_decrypt(text: str, key: str, encrypt=False):
     return vigenere(text=text, key=key)
 
+
 def driver():
     description = "useful_functions"
     parser = ArgumentParser(__file__, description)
-    parser.add_argument("", action="store",
-                        help-"Path to raw data mat file)
+    parser.add_argument(--message, --key, --model, 
+                        help-''))
 
     results = parser.parse_args()
 
     raw=sio.loodmat(results.d)
     
-    path='
+    path='msg_file.txt'
 
 
 if __name__ == "__main__":
